@@ -76,53 +76,5 @@ function showSnakeAndFood() {
     }
     document.getElementById("table").innerHTML += grid; // creation of grid is finished
 }
+
 showSnakeAndFood();
-
-
-
-/*
-// create a grid on canvas with a pattern
-function drawGrid() {
-    // define print pattern
-    const pattern = "a";
-    console.log(pattern);
-
-    // Create one dimensional array
-    var posArr = new Array(row);
-
-    // Loop to create 2D array using 1D array
-    for (var i = 0; i < row; i++) {
-        posArr[i] = new Array(col);
-    }
-
-    // Loop to initilize and display 2D array elements
-    var grid = "";
-    for (var i = 0; i < row; i++) {
-        grid += "<tr>";
-        for (var j = 0; j < col; j++) {
-            posArr[i][j] = pattern;
-            grid += "<td>" + pattern + "</td>";
-        }
-    grid += "</tr>";
-    }
-    document.getElementById("table").innerHTML += grid;
-}
-drawGrid();
-*/
-
-/*
-function drawPlaid() {
-    for (var i = 0; i < row; i++) {
-        for (var j = 0; j < col; j++) {
-            if ((i + j) % 2 === 0) {
-                ctx.fillStyle = "white";
-                ctx.fillRect(i * cellSide, j * cellSide, cellSide, cellSide);
-            }
-            else {
-                ctx.fillStyle = "grey";
-                ctx.fillRect(j * cellSide, i * cellSide, cellSide, cellSide);
-            }            
-        }
-    }
-}
-*/
