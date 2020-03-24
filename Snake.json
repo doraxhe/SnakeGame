@@ -1,0 +1,44 @@
+{
+    "snake": {
+        "direction": "DOWN",
+
+        "body": [
+            {
+                "xCoor": 11,
+                "yCoor": 11
+            },
+            {
+                "xCoor": 11,
+                "yCoor": 10
+            },
+            {
+                "xCoor": 11,
+                "yCoor": 9
+            },
+            {
+                "xCoor": 12,
+                "yCoor": 9
+            },
+            {
+                "xCoor": 13,
+                "yCoor": 9
+            },
+            {
+                "xCoor": 13,
+                "yCoor": 10
+            }
+        ]
+    },
+
+    "food": {
+        "xCoor": 10,
+        "yCoor": 17
+    },
+
+    "gamestate": "IN_PROGRESS",
+
+    "boundary": {
+        "height": 30,
+        "width": 50
+    }
+}
